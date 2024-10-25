@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: titleColors
+flagType: string
+description: 
+labels:
+  -  Hello
+
+availableValues:
+
+isPermanent: false
