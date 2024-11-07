@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: numberSplit
 
-enabled: false
+enabled: true
 
 defaultValue: 21
 
