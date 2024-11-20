@@ -4,7 +4,7 @@ kind: flag
 
 flag: flag111
 flagType: boolean
-description: asdasdasd
+description: asdasdasd2
 labels:
 
 availableValues:
