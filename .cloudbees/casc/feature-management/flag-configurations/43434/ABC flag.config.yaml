@@ -4,11 +4,14 @@ kind: flag-configuration
 
 flag: ABC flag
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
 defaultValue:
-  valueWrittenInCode: true
+  - percentage: 51
+    option: true
+  - percentage: 49
+    option: false
 
 conditions: []
