@@ -1,14 +1,19 @@
 ---
-apiVersion: v1
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
 flag: flag111
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: isLoggedIn
+          operator: is-true
+    flagValue: false
