@@ -16,4 +16,7 @@ conditions:
       - property:
           name: isLoggedIn
           operator: is-true
+      - property:
+          name: GregDelete
+          operator: is-true
     flagValue: false
