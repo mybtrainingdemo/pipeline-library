@@ -15,7 +15,7 @@ conditions:
   - allOf:
       - property:
           name: isLoggedIn
-          operator: is-false
+          operator: is-true
       - anyOf:
           - group:
               id: 1a1e3611-cab0-4988-95a9-d220100e91ca
