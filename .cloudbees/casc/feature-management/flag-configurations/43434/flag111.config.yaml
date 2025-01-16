@@ -18,5 +18,7 @@ conditions:
           operator: is-true
       - anyOf:
           - group:
+              id: 037f6846-2212-42ea-781f-dab5dee41e9e
+          - group:
               id: 1a1e3611-cab0-4988-95a9-d220100e91ca
     flagValue: false
