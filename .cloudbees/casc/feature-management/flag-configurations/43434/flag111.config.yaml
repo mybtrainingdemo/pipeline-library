@@ -17,6 +17,6 @@ conditions:
           name: isLoggedIn
           operator: is-true
       - property:
-          name: GregDelete
+          name: GregDelete-playground
           operator: is-true
     flagValue: false
