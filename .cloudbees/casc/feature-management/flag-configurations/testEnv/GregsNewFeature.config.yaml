@@ -10,9 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions:
-  - allOf:
-      - property:
-          name: isInternalUser
-          operator: is-true
-    flagValue: true
+conditions: []
