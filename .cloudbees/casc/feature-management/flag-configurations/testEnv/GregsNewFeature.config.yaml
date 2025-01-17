@@ -10,4 +10,9 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: isCloudBeesUser
+          operator: is-true
+    flagValue: true
