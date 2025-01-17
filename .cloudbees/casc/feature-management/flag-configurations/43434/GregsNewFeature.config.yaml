@@ -8,13 +8,11 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue: false
 
 conditions:
   - allOf:
       - property:
-          name: Country
-          operator: in-array
-          operands:
-            - US
+          name: BetaUser
+          operator: is-true
     flagValue: true
