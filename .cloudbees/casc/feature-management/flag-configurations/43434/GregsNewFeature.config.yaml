@@ -13,6 +13,6 @@ defaultValue: false
 conditions:
   - allOf:
       - property:
-          name: BetaUser
+          name: isInternalUser
           operator: is-true
     flagValue: true
