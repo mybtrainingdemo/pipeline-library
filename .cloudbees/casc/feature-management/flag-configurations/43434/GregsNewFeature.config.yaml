@@ -10,11 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions:
-  - allOf:
-      - property:
-          name: Country
-          operator: in-array
-          operands:
-            - US
-    flagValue: true
+conditions: []
