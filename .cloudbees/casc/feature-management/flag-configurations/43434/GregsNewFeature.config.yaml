@@ -10,4 +10,12 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: GregDelete
+          operator: is-true
+      - anyOf:
+          - group:
+              id: 1a1e3611-cab0-4988-95a9-d220100e91ca
+    flagValue: true
