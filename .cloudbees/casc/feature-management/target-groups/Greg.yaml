@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: Greg
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: GregDelete
+        operator: is-true
