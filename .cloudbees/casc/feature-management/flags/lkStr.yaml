@@ -8,8 +8,8 @@ description:
 labels:
 
 availableValues:
-  - 1
-  - 2
-  - 3
+  - 11
+  - 22
+  - 33
 
 isPermanent: false
