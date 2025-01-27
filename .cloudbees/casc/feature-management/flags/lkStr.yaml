@@ -1,0 +1,15 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: lkStr
+flagType: string
+description: 
+labels:
+
+availableValues:
+  - 1
+  - 2
+  - 3
+
+isPermanent: false
