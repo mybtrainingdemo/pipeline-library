@@ -8,5 +8,8 @@ description: dasd
 labels:
 
 availableValues:
+  - 1
+  - 2
+  - 3
 
 isPermanent: false
