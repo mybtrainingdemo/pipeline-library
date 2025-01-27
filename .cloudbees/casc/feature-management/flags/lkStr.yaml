@@ -4,7 +4,7 @@ kind: flag
 
 flag: lkStr
 flagType: string
-description: dasd
+description: 
 labels:
 
 availableValues:
