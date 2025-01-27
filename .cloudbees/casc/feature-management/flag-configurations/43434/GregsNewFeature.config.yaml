@@ -12,7 +12,7 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: GregDelete
-          operator: is-true
+      - anyOf:
+          - group:
+              name: Greg
     flagValue: true
