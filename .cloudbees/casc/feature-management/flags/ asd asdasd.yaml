@@ -1,0 +1,17 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag:  asd asdasd
+flagType: string
+description: test de
+labels:
+  -  Hello
+  - l1
+
+availableValues:
+  - 1
+  - 2
+  - 3
+
+isPermanent: true
